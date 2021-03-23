@@ -25,7 +25,7 @@ public class Triangulo
 
 	private void calcularArea() 
 	{
-		this.area = base * altura / 2;
+		this.area = bAse * altura / 2;
 	}
 
 	public override string ToString()
@@ -35,4 +35,23 @@ public class Triangulo
 							"altura: {}\n" +
 							"area: {}\n");
 	}
+
+	public string color
+	{
+		get { return color; }
+		set { color = value; }
+	}
+
+	public string bAse
+	{
+		get { return bAse; }
+		set { color = value; }
+	}
+
+	public string altura
+	{
+		get { return altura; }
+		set { color = value; }
+	}
+
 }
